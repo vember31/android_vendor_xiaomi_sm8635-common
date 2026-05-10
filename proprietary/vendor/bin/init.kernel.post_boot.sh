@@ -129,6 +129,12 @@ function configure_memory_parameters() {
 		echo 43 > /proc/sys/vm/watermark_scale_factor
 	fi
 
+	# Modify watermark_scale_factor(from 37 to 43) for N1
+	ProductDevice=`getprop ro.product.device`
+	if [ "$ProductDevice" == "aurora" ]; then
+		echo 43 > /proc/sys/vm/watermark_scale_factor
+	fi
+
 	# Disable periodic kcompactd wakeups. We do not use THP, so having many
 	# huge pages is not as necessary.
 	echo 0 > /proc/sys/vm/compaction_proactiveness
@@ -145,6 +151,12 @@ function configure_memory_parameters() {
 		echo 60 > /proc/sys/vm/watermark_scale_factor
 	else
 		echo never > /sys/kernel/mm/transparent_hugepage/enabled
+	fi
+
+	if [ "$ProductName" == "manet" ]; then
+		if [ $RamSizeGB -gt 16 ]; then
+			echo 65536 > /proc/sys/kernel/pid_max
+		fi
 	fi
         # END Performance_MemoryEnhance
 	# Prevent page faults on THP-elgible VMAs from causing reclaim or compaction

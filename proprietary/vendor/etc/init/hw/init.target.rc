@@ -460,8 +460,6 @@ on charger
     write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 1
     write /sys/bus/platform/devices/1d84000.ufshc/auto_hibern8 5000
     write /sys/bus/platform/devices/1d84000.ufshc/clkgate_enable 1
-    #Enable poweroff_charger_log
-    setprop persist.sys.offlinelog.poweroff_charger_log true
 
 #service vendor.lowi /vendor/bin/sscrpcd
 #   class core

@@ -310,6 +310,10 @@ on post-fs-data
     chmod 0666 /dev/camlog
     #END Camera_CameraSkyNet
 
+    # MIUI ADD: Camera_KillDsp
+    chmod 0666 /dev/dspmonitor
+    # END Camera_KillDsp
+
     # MIUI ADD: Camera_Sched
     chmod 0666 /dev/mi_cam_sched
     # END Camera_Sched
@@ -811,7 +815,7 @@ service wifi-crda /vendor/bin/init.crda.sh
 
 on property:sys.boot_completed=1
     start qcom-post-boot
-    # fix BUGO81UPW-1278
+    #fix BUGN18UPW-186
     #start qti-testscripts
 
 on property:ro.vendor.ril.mbn_copy_completed=1

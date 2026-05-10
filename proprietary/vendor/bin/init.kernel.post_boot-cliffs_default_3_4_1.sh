@@ -178,8 +178,13 @@ echo 0 > /proc/sys/kernel/sched_util_clamp_min_rt_default
 # MIUI MOD: Performance_SmartCPUPolicy
 # cpuset parameters
 echo 0-2 > /dev/cpuset/background/cpus
-#echo 0-2 > /dev/cpuset/system-background/cpus
-echo 0-3 > /dev/cpuset/system-background/cpus
+
+ProductName=$(getprop ro.product.name)
+if [ "$ProductName" == "peridot" ]; then
+    echo 0-2 > /dev/cpuset/system-background/cpus
+else
+    echo 0-3 > /dev/cpuset/system-background/cpus
+fi
 # END Performance_SmartCPUPolicy
 
 # MIUI ADD: Performance_BoostFramework
