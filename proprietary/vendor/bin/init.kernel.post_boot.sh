@@ -176,15 +176,7 @@ function configure_memory_parameters() {
 	echo 0 > /sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_none
 	echo 0 > /sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_swap
 	echo 0 > /sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_shared
-	# Enable Multi-size-THP
-	if [ $RamSizeGB -gt 12 ]; then
-		ProductName=`getprop ro.product.name`
-		if [ "$ProductName" == "muyu" ]; then
-			echo never > /sys/kernel/mm/transparent_hugepage/hugepages-64kB/enabled
-		else
-			echo always > /sys/kernel/mm/transparent_hugepage/hugepages-64kB/enabled
-		fi
-	fi
+	echo never > /sys/kernel/mm/transparent_hugepage/hugepages-64kB/enabled
 
 	# Set the min_free_kbytes to standard kernel value
 	if [ $RamSizeGB -ge 8 ]; then
