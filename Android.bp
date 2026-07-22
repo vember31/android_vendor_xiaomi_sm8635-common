@@ -3222,6 +3222,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sound_trigger.primary.pineapple",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -11327,6 +11328,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkaraokepal",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -29589,6 +29591,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcrussp",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
