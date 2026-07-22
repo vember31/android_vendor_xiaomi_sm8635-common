@@ -1927,6 +1927,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.mcx.distortionmapper",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1980,6 +1981,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.mcx.linearmapper",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2033,6 +2035,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.mcx.nonlinearmapper",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2087,6 +2090,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.mcx.policy.mfl",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2170,6 +2174,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.mcx.usecase.extension",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2566,6 +2571,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.immunesystem.hook.camx",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -7022,6 +7028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamerapostproc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15637,6 +15644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpostprocinfo",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -31160,6 +31168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.mediaeventgatherservice-V1-ndk",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
