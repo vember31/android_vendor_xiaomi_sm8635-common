@@ -2626,6 +2626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.immunesystem.hook.chi",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2678,6 +2679,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.immunesystem.hook.mivi",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2720,6 +2722,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.immunesystem.hook.mtkhal",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6208,6 +6211,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaidenoiser",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6239,6 +6243,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaidenoiserv2",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6654,6 +6659,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbitmlengine",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6684,6 +6690,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbitmlenginev2",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -7176,6 +7183,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxfdengine",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -7363,6 +7371,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxncsdatafactory",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -10637,6 +10646,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhdr10plus",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -10807,6 +10817,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhme",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -10953,6 +10964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libipebpsstriping",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -10999,6 +11011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libipebpsstriping170",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -11045,6 +11058,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libipebpsstriping480",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -11266,6 +11280,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpege",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12532,6 +12547,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmctfengine_stub",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12779,6 +12795,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfec",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12942,6 +12959,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmialgoengine",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13238,6 +13256,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmicamera_hal_core",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13298,6 +13317,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmicamera_hal_policy",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13525,6 +13545,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmis_platform",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13553,6 +13574,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmis_plugin_dummy",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13581,6 +13603,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmis_plugin_gme",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13614,6 +13637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmis_plugin_his",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13645,6 +13669,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmis_plugin_morpho",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13675,6 +13700,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmis_plugin_qisv2",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13708,6 +13734,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmis_plugin_qisv3",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13950,6 +13977,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmlremosaicsnapshot",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14008,6 +14036,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmcamera_bestats",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14054,6 +14083,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmcamera_cac",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14101,6 +14131,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmcamera_lscv35",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14147,6 +14178,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmcamera_pdpc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15280,6 +15312,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libopestriping",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17186,6 +17219,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqll",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17215,6 +17249,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqll10",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17243,6 +17278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqllengine",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17665,6 +17701,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqsegnet",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -19201,6 +19238,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsimulation",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -20504,6 +20542,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libubifocus",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -20712,6 +20751,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvideoml",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -23709,6 +23749,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.camera.aon-service-impl",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -23767,6 +23808,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.camera.offlinecamera-service-impl",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -23819,6 +23861,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.camera.postproc@1.0-service-impl",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
